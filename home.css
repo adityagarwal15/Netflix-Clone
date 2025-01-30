@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* 🌟 Main Section */
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+/* 🌟 Navigation Bar */
+nav {
+   width: 100%;
+   padding: 20px 40px; /* Spacing around the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+    z-index: 100; /* Ensure it stays on top */
+    margin: auto;
+    height: 100px;
+}
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+    width: 130px;
+    cursor: pointer; /* Add cursor pointer for interactivity */
+}
+
+/* Navbar Links */
+nav .google_translate_element {
+    margin-right: 20px;
+}
+
+/* nav button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background-color: white;
+    color: black;
+    border-color: transparent;
+}
+
+nav button:focus {
+    outline: none;
+} */
+
+
+/* Add space between elements in the navbar */
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border-color: transparent;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* 🌟 Hero Section */
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* 🌟 Separation */
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+
+
+
+
+
+/* 🌟 Input Field */
+.main input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+/* 🌟 Features Section */
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 500px;
+}
+
+section.first > div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+section.first p {
+    font-size: 20px;
+}
+
+/* 🌟 FAQ Section */
+.faq {
+    background: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.faqbox {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+/* 🌟 Footer */
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: red;
+}
+
+/* 🌟 Responsive Design */
+@media screen and (max-width: 1300px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .secImg img,
+    .secImg video {
+        width: 300px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .faq h2 {
+        font-size: 36px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 50px 0;
+    }
+}
+
+/* 📱 Mobile */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .faq h2 {
+        font-size: 30px;
+    }
+
+    .faqbox {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        padding: 15px 20px;
+    }
+
+    nav .google_translate_element {
+        display: none; /* Hide Google Translate dropdown on smaller screens */
+    }
+
+    nav button {
+        padding: 8px 16px;
+    }
+}
