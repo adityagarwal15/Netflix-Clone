@@ -1,6 +1,6 @@
-# Netflix Clone - Netflix India
+# Netflix Clone 
 
-Welcome to the repository for my Netflix Clone project! This site replicates the Netflix India homepage with a modern, responsive design and a dark theme. It features a sleek interface with interactive elements, mimicking Netflix's layout and functionality, all built with HTML, CSS, and JavaScript.
+Welcome to the repository for my Netflix Clone project! This site replicates the Netflix homepage with a modern, responsive design and a dark theme. It features a sleek interface with interactive elements, mimicking Netflix's layout and functionality, all built with HTML, CSS, and JavaScript.
 
 ## About the Project
 
@@ -26,19 +26,6 @@ This project is a Netflix clone designed to resemble the Netflix India homepage.
 - **Fonts**: Google Fonts (`Poppins` and `Martel Sans`)
 - **Images**: Placeholder images from Netflix
 - **Animation Libraries**: GSAP and Anime.js for text and header animations
-
-## Demo
-
-The live version of the Netflix Clone is hosted and available to view here:  
-[Demo of Netflix Clone](your-demo-link)
-
-### Screenshot
-![Netflix Clone Screenshot](your-screenshot-link)
-
-### Walkthrough Video
-[![Netflix Clone Walkthrough](your-video-thumbnail-link)](your-video-link)
-
-> Click the image above to watch the video!
 
 ## Installation
 
@@ -111,13 +98,13 @@ You can modify the supported languages by adjusting the `includedLanguages` in t
 ## Demo
 
 The live version of my portfolio website is hosted on Netlify.  
-Visit it here: [https://adityagarwal.netlify.app](https://adityagarwal.netlify.app)
+Visit it here: [https://flixs.netlify.app/](https://flixs.netlify.app/)
 
 ### Screenshot
-![Portfolio Screenshot](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735073629/Screenshot_2024-12-25_021950_eznls8.png)
+![Netflix-Clone Screenshot](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1738282572/Screenshot_2025-01-31_054558_bquday.png)
 
 ### Walkthrough Video
-[![Portfolio Walkthrough](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1735073629/Screenshot_2024-12-25_021950_eznls8.png)](https://res.cloudinary.com/dcf0cpuqf/video/upload/v1735073671/Portfolio_walkthrough_v2zpir.mp4)
+[![Portfolio Walkthrough](https://res.cloudinary.com/dcf0cpuqf/image/upload/v1738282572/Screenshot_2025-01-31_054558_bquday.png)](https://res.cloudinary.com/dcf0cpuqf/video/upload/v1738282549/netfix-video_gqetuw.mp4)
 
 > Click the image above to watch the video!
 
