@@ -60,25 +60,7 @@ netflix-clone/
 ├── home.css
 ├── README.md
 
-
 ```
-
-## Important Files
-
-- **`index.html`**:  
-  The main HTML file, replicating the Netflix homepage layout with Google Translate integration, animations, and the hero section.
-
-- **`index.css`**:  
-  The CSS file that styles the page with a modern, dark theme and includes the layout and animation styling.
-
-- **`index.js`**:  
-  JavaScript handling text animations, interactive elements, and redirects (for example, navigating from the home page to the device compatibility and FAQ sections).
-
-- **`home.html`**:  
-  A secondary page offering additional content such as device compatibility and frequently asked questions.
-
-- **`home.css`**:  
-  CSS for `home.html`, ensuring consistency with the main page design.
 
 ## Google Translate API
 
