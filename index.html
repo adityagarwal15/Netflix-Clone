@@ -7,34 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Netflix Clone - Stream, Chill, Repeat</title>
-
     <meta name="description" content="Netflix Clone - A seamless, responsive streaming platform for your favorite movies and series.">
-    <meta name="keywords" content="Netflix clone, streaming, movies, TV shows, watch online">
+    <meta name="keywords" content="Netflix clone, streaming platform, watch movies, TV series online, responsive video app">
     <meta name="author" content="Aditya Agarwal">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://flixxs.netlify.app/">
 
     <!-- Open Graph (OG) for Social Sharing -->
     <meta property="og:title" content="Netflix Clone - Stream, Chill, Repeat">
     <meta property="og:description" content="Watch your favorite movies, shows, and more on this Netflix Clone app.">
-    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://res.cloudinary.com/dcf0cpuqf/image/upload/v1738282572/Screenshot_2025-01-31_054558_bquday.png">
+    <meta property="og:url" content="https://flixxs.netlify.app/">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Netflix Clone - Stream, Chill, Repeat">
     <meta name="twitter:description" content="Watch your favorite movies, shows, and more on this Netflix Clone app.">
-    <meta name="twitter:image" content="https://yourwebsite.com/preview-image.jpg">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dcf0cpuqf/image/upload/v1738282572/Screenshot_2025-01-31_054558_bquday.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="/manifest.json">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="index.css">
 
     <!-- GSAP & Anime.js for Animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js" defer></script>
+
+    <!-- Optional: JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Netflix Clone",
+        "operatingSystem": "Web",
+        "applicationCategory": "EntertainmentApplication",
+        "author": {
+            "@type": "Person",
+            "name": "Aditya Agarwal"
+        },
+        "url": "https://flixxs.netlify.app/",
+        "description": "A seamless, responsive streaming platform for your favorite movies and series."
+    }
+    </script>
 </head>
+
 
 <body>
 
